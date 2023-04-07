@@ -54,10 +54,6 @@ body {
     background-color: rgb(145, 142, 142, 0.5);
 }
 
-.active-list {
-    display: flex;
-}
-
 .menu-list {
     display: flex;
     list-style: none;

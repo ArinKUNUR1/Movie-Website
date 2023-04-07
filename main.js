@@ -21,11 +21,3 @@ const items = document.querySelectorAll(".container,.navbar,.sidebar,.sidebar i,
 darkModeButton.addEventListener("click", function () {
     items.forEach((item) => item.classList.toggle("active"));
 });
-
-
-const barrButton = document.querySelector(".barr-wrapper"); 
-const menuContainer = document.querySelector(".menu-container"); 
-
-barrButton.addEventListener("click", function() {
-    menuContainer.classList.add("active-list");
-})
